@@ -87,7 +87,48 @@ const TermsAndConditions = () => {
       ),
     },
     {
-      title: '5. User Obligations',
+      title: '5. Location Services and Permissions',
+      content: (
+        <div className="space-y-4">
+          <p>Our App requires access to your device&apos;s location services to function properly. By using our Services, you agree to the following terms regarding location data:</p>
+          
+          <h4 className="font-medium text-md mt-4">Location Permissions:</h4>
+          <ul className="list-disc pl-8 mt-2 space-y-2">
+            <li>You agree to grant Swift Logistics permission to collect, use, and share your precise location data as described in our Privacy Policy</li>
+            <li>You understand that certain features of our App, such as finding nearby couriers and tracking deliveries, require access to your precise location</li>
+            <li>You may be asked to grant background location access to enable real-time delivery tracking and notifications</li>
+            <li>You can control location permissions through your device settings at any time</li>
+          </ul>
+
+          <h4 className="font-medium text-md mt-4">Location Accuracy:</h4>
+          <ul className="list-disc pl-8 mt-2 space-y-2">
+            <li>You agree to provide accurate delivery addresses and location information</li>
+            <li>You understand that inaccurate location information may result in delivery delays or failures</li>
+            <li>You acknowledge that GPS and location services have inherent limitations and may not always be precise</li>
+          </ul>
+
+          <h4 className="font-medium text-md mt-4">Location Data Sharing:</h4>
+          <ul className="list-disc pl-8 mt-2 space-y-2">
+            <li>You consent to sharing your location with assigned couriers during the delivery process</li>
+            <li>You understand that merchants may receive your general location or delivery zone information</li>
+            <li>You agree that anonymized location data may be used to improve our Services</li>
+          </ul>
+
+          <h4 className="font-medium text-md mt-4">Disabling Location Services:</h4>
+          <p>You acknowledge that disabling location services may limit or prevent the use of certain features of our App, including:</p>
+          <ul className="list-disc pl-8 mt-2 space-y-2">
+            <li>Finding nearby couriers</li>
+            <li>Real-time order tracking</li>
+            <li>Accurate delivery time estimates</li>
+            <li>Location-based notifications and updates</li>
+          </ul>
+          
+          <p className="mt-4">For more detailed information about how we collect, use, and protect your location data, please refer to our Privacy Policy.</p>
+        </div>
+      ),
+    },
+    {
+      title: '6. User Obligations',
       content: (
         <div className="space-y-4">
           <p>As a user of our Services, you agree to:</p>
@@ -105,7 +146,7 @@ const TermsAndConditions = () => {
       ),
     },
     {
-      title: '6. Payments and Fees',
+      title: '7. Payments and Fees',
       content: (
         <div className="space-y-4">
           <p>By using our Services, you agree to pay all fees charged by Swift Logistics for such Services. Fees for each delivery service will be disclosed to you before you confirm your request.</p>
@@ -127,7 +168,7 @@ const TermsAndConditions = () => {
       ),
     },
     {
-      title: '7. Cancellations and Refunds',
+      title: '8. Cancellations and Refunds',
       content: (
         <div className="space-y-4">
           <p>You may cancel a delivery request through our App subject to the following conditions:</p>
@@ -150,7 +191,7 @@ const TermsAndConditions = () => {
       ),
     },
     {
-      title: '8. Limitation of Liability',
+      title: '9. Limitation of Liability',
       content: (
         <div className="space-y-4">
           <p>To the maximum extent permitted by law, Swift Logistics and its officers, directors, employees, and agents shall not be liable for:</p>
@@ -168,7 +209,7 @@ const TermsAndConditions = () => {
       ),
     },
     {
-      title: '9. Dispute Resolution',
+      title: '10. Dispute Resolution',
       content: (
         <div className="space-y-4">
           <p>Any dispute arising from these Terms or your use of our Services shall be resolved according to the following process:</p>
@@ -185,7 +226,7 @@ const TermsAndConditions = () => {
       ),
     },
     {
-      title: '10. Modification of Terms',
+      title: '11. Modification of Terms',
       content: (
         <div className="space-y-4">
           <p>Swift Logistics reserves the right to modify these Terms at any time. We will provide notice of significant changes by:</p>
